@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin:0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+}
+ul, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 1560px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.header {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(360deg, rgb(67, 67, 241), rgb(3, 160, 222));
+}
+.left-box {
+    vertical-align: top;
+    margin-top: 25px;
+    margin-left: 80px;
+    width: 60%;
+    color: white;
+}
+.left-box p {
+    width: 50%;
+}
+.more-btn {
+    color: white;
+    background-color: rgb(59, 59, 59);
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+.more-btn:hover {
+    background-color: black;
+    cursor: pointer;
+}
+.right-box {
+    display: flex;
+    overflow: hidden;
+    width: 40%;
+    padding-top: 60px;
+    padding-right: 10%;
+    justify-content: right;
+}
+.pone {
+    display: block;
+    width: auto; 
+    max-width: 100%;
+    height: 100%;
+}
+.show-portfolio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.show-portfolio h4 {
+    margin:0;
+}
+.portfolio-btn {
+    color: white;
+    background-color: rgb(59, 59, 59);
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+.portfolio-btn:hover {
+    background-color: black;
+    cursor: pointer;
+}
+.service {
+    width: 100%;
+    height: 350px;
+    background-color: rgb(67, 67, 241);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.service-item {
+    display: flex;
+    justify-content:center;
+    list-style: none;
+}
+.item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* -------아이콘 다시보기--------- */
+.icon-box {
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: white;
+}
+.icon-box>i {
+    margin-top:     30%;
+    font-size: 30px;
+    color: rgb(67, 67, 241);
+}
+.can-do {
+    padding-top: 20px;
+    text-align: center;
+
+}
+.list-img {
+    width: 75%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-box, .bot-box {
+    display: flex;
+    width: 100%;
+    height:auto;
+    max-width: 100%;
+}
+.top-left, .bot-left, .top-right, .bot-right {
+    position: relative;
+    color: white;
+    width: 50%;
+    height: auto;
+    max-height: 100%; 
+}
+.in-box {
+    background: none;
+    width: 80%;
+}
+.top-left>.in-box {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.top-right>.in-box {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.bot-left>.in-box {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.bot-right>.in-box {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.in-box {
+    padding: 10%;
+    transition: 0.8s;
+}
+.in-box:hover {
+    border: 10px solid white;
+}
+
+.portfolio-img {
+    width: 100%;
+    height: 100%;
+}
+.footer {
+    width: 100%;
+    margin-top: 150px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.footer>p {
+    font-size: 1rem;
+}
+.sns-link {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.sns-item {
+    margin-left: 10px;;
+    margin-right: 10px;
+    text-align: center;
+    color: white;
+}
+.sns-icon-box {
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: rgb(80, 80, 225);
+}
+.sns-icon-box>i {
+    margin-top:40%;
+}
+
+
+/* ---------------백그라운드 효과처리-------------------- */
+/* .top-left {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/portfolio-1.jpg);
+}
+.top-right {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/portfolio-2.jpg);
+    
+}
+.bot-left {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/portfolio-3.jpg);
+}
+.bot-right {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/portfolio-4.jpg);
+}
+.top-left, .bot-left, .top-right, .bot-right {
+    color: white;
+    width: 50%;
+    height: auto;
+    max-height: 100%; 
+    padding-left: 10%;
+    padding-top: 10%;
+    transition: 0.8s;
+}
+
+.top-left:hover, .bot-left:hover, .top-right:hover, .bot-right:hover{
+    border: 20px solid white;
+} */
+
+
+/* .portfolio-img {
+    width: 100%;
+    height: auto;
+} */
+/* ---------------백그라운드 효과처리-------------------- */
